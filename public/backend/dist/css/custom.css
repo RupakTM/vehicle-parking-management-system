@@ -1,0 +1,111 @@
+
+.sidebar-background{
+    background-color: #d3ef86;
+}
+
+.remember{
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+.sidebar-color{
+    background-color: #f2bc91;
+}
+
+.nav-item{
+    text-decoration-color: #54be0d;
+}
+
+.custom-text-color-black{
+    color: #0b2e13;
+}
+
+/*Login Page*/
+.error{
+    font-size: 1rem;
+    color: rgb(255,0,0);
+    width: 100%;
+}
+
+.header-content{
+    margin-bottom: 10px;
+}
+
+/*.invoice{*/
+/*    display: none;*/
+/*}*/
+
+@media print {
+    #btnPrint{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .card-header {
+        display: none;
+    }
+}
+
+span.grey {
+    background: #cccccc;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #fff;
+    display: inline-block;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-left: 80px;
+    margin-top: 15px;
+    text-align: center;
+    width: 90px;
+}
+
+
+/* Hover message for search button*/
+
+#iconmessage {
+    position: relative;
+    display: inline-block;
+}
+
+#iconmessage .messagehover {
+    font-family: 'Raleway', sans-serif;
+    font-size:10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(222, 226, 230);
+    color: rgb(80, 80, 80);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the iconmessage */
+    position: absolute;
+    z-index: 1;
+    top:-5px;
+    left:110%;
+}
+
+#iconmessage:hover .messagehover {
+    visibility: visible;
+}
+
+
+/* hover message ends */
+
+
+
+/* Parking report table */
+#report_table {
+    margin-bottom: 10px;
+    /*align-content: center;*/
+    text-align: center;
+}
+/* Parking report table ends */
